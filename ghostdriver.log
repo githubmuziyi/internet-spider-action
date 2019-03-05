@@ -1,0 +1,20 @@
+[INFO  - 2019-03-01T12:19:22.713Z] GhostDriver - Main - running on port 55784
+[INFO  - 2019-03-01T12:19:23.373Z] Session [3f812590-3c1c-11e9-8511-a7abe77d177a] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-03-01T12:19:23.373Z] Session [3f812590-3c1c-11e9-8511-a7abe77d177a] - page.customHeaders:  - {}
+[INFO  - 2019-03-01T12:19:23.373Z] Session [3f812590-3c1c-11e9-8511-a7abe77d177a] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-03-01T12:19:23.373Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 3f812590-3c1c-11e9-8511-a7abe77d177a
+[ERROR - 2019-03-01T12:20:10.643Z] Session [3f812590-3c1c-11e9-8511-a7abe77d177a] - page.onError - msg: ReferenceError: Can't find variable: c
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-01T12:20:10.644Z] Session [3f812590-3c1c-11e9-8511-a7abe77d177a] - page.onError - stack:
+  sendLog (https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js:4)
+  (anonymous function) (https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-01T12:20:34.343Z] RouterReqHand - _handle.error - {"name":"Invalid Command Method","message":"{\"headers\":{\"Accept\":\"application/json\",\"Accept-Encoding\":\"identity\",\"Content-Type\":\"application/json;charset=UTF-8\",\"Host\":\"127.0.0.1:55784\",\"User-Agent\":\"selenium/3.141.0 (python mac)\"},\"httpVersion\":\"1.1\",\"method\":\"GET\",\"url\":\"/orientation\",\"urlParsed\":{\"anchor\":\"\",\"query\":\"\",\"file\":\"orientation\",\"directory\":\"/\",\"path\":\"/orientation\",\"relative\":\"/orientation\",\"port\":\"\",\"host\":\"\",\"password\":\"\",\"user\":\"\",\"userInfo\":\"\",\"authority\":\"\",\"protocol\":\"\",\"source\":\"/orientation\",\"queryKey\":{},\"chunks\":[\"orientation\"]},\"urlOriginal\":\"/session/3f812590-3c1c-11e9-8511-a7abe77d177a/orientation\"}","line":202,"sourceURL":"phantomjs://code/session_request_handler.js","stack":"_handle@phantomjs://code/session_request_handler.js:202:66\n_reroute@phantomjs://code/request_handler.js:61:20\n_handle@phantomjs://code/router_request_handler.js:78:46"}
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2019-03-01T12:24:22.718Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-03-01T12:29:22.723Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-03-01T12:34:22.728Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-03-01T12:39:22.735Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
